@@ -39,7 +39,3 @@ void set_keylog(uint16_t keycode, keyrecord_t *record) {
 const char *read_keylog(void) {
   return keylog_str;
 }
-
-const char *read_keylogs(void) {
-  return keylogs_str;
-}

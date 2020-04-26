@@ -12,4 +12,11 @@ const char *read_rgb_info(void) {
     rgblight_config.hue, rgblight_config.sat, rgblight_config.val);
   return rbf_info_str;
 }
+
+const char *read_rgb_mode(void) {
+    snprintf(rbf_info_str, sizeof(rbf_info_str), "RGB Mode: %s %2d",
+      rgblight_config.enable ? "on" : "- ", rgblight_config.mode);
+    return rbf_info_str;
+}
+
 #endif
