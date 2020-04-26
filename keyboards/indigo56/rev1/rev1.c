@@ -44,9 +44,3 @@ led_config_t g_led_config = { {
     4, 4, 4, 1,
 } };
 #endif
-
-__attribute__((weak))
-void matrix_init_user(void) {}
-
-void matrix_init_kb(void) {}
-
