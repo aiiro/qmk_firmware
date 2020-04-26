@@ -50,7 +50,7 @@ KC_LSFT,    _______,    _______,    _______,    _______,    _______,        ____
 KC_ESC,    _______,    _______,    _______,    _______,    _______,         _______,    _______,    _______,    _______,    _______,    KC_DEL,\
 KC_TAB,    KC_EXLM,    KC_AT,      KC_HASH,    KC_DLR,     KC_PERC,         KC_CIRC,    KC_AMPR,    KC_ASTR,    KC_LPRN,    KC_RPRN,    KC_MINS,\
 KC_LCTL,   RGB_TOG,    RGB_HUI,    RGB_HUD,    RGB_SAI,    RGB_SAD,         KC_TILD,    KC_EQL,     KC_LCBR,    KC_RCBR,    KC_PIPE,    KC_BSLS,\
-KC_LSFT,   RGB_RST,    RGB_VAI,    RGB_VAD,    RGB_MODE_RAINBOW,    RGB_RMOD,        KC_UNDS,    KC_PLUS,    KC_LBRC,    KC_RBRC,    KC_BSLS,    KC_TILD,\
+KC_LSFT,   RGB_RST,    RGB_VAI,    RGB_VAD,    RGB_MOD,    RGB_RMOD,        KC_UNDS,    KC_PLUS,    KC_LBRC,    KC_RBRC,    KC_BSLS,    KC_TILD,\
                        KC_LALT,    KC_LGUI,    LOWER,      KC_SPC,          KC_ENT,     RAISE,      KC_RGUI,    KC_RALT \
     ),
 
