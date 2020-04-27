@@ -15,7 +15,7 @@ const char *read_rgb_info(void) {
 
 const char *read_rgb_mode(void) {
     snprintf(rbf_info_str, sizeof(rbf_info_str), "RGB Mode: %s %2d",
-      rgblight_config.enable ? "on" : "- ", rgblight_config.mode);
+      rgblight_config.enable ? "on" : "off", rgblight_config.mode);
     return rbf_info_str;
 }
 
